@@ -1,0 +1,209 @@
+.input-personalizado {
+    width: 90%;
+}
+.form-contato{
+    margin-top: 100px;  padding: 0px;
+}
+.form-contato1{
+    background: #424242;
+    padding: 0px;
+}
+
+body{
+    background:#616161;
+}
+@media (max-width: 768px) {
+
+    #mapa{
+       width: 100%;
+        height: 570px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(229, 227, 223);
+    } 
+    #conteudo{
+        width: 90%
+    }
+    .contato textarea {
+        width: 90%;
+    }
+    .form-contato1{
+            height:720px;
+        
+    }
+    .transformed {
+
+    color: rgba(255, 255, 255, .7);
+    border: 3px solid rgba(255, 255, 255, .7);
+    display:block;
+    height: 95px;
+    padding: 15px 15px 15px 00px;
+    position: relative;
+    width: 292px;
+        margin-left: 500px; margin-right: auto;
+    }
+    .contactform{
+        margin-left:auto;
+        margin-right: auto;
+        padding: 15px;
+        margin-bottom: 570px;
+    }
+    .input-personalizado{
+        margin: auto;
+    }
+    body{
+        min-height: 100vh;
+
+    }
+    footer{
+        margin-top: 570px;
+    }
+        
+    .form-contato{
+        margin-top: 20px;
+    }
+    .form-contato2{
+        margin-top: 0px;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    #mapa{
+       width: 100%;
+        height: 570px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(229, 227, 223);
+    } 
+    #conteudo{
+        width: 90%
+    }
+    .contato textarea {
+        width: 90%;
+    }
+    .form-contato1{
+            height:620px;
+    }
+    .transformed {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    color: rgba(255, 255, 255, .7);
+    border: 3px solid rgba(255, 255, 255, .7);
+    display: inline-block;
+    height: 95px;top: 98px;
+    left: -90px;
+    padding: 15px 15px 15px 30px;
+    position: absolute;
+    width: 292px;
+    z-index: 4;
+    }
+    .contactform{
+    padding:0px;margin-left:120px
+
+    }
+    body{
+        min-height: 100vh;
+
+    }
+    footer{
+        margin-top: 570px;
+    }
+        .form-contato2{
+        margin-top: 0px;
+    }
+        
+
+}
+
+@media (min-width: 992px) {
+
+    #mapa{
+       width: 100%;
+        height: 570px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(229, 227, 223);
+    } 
+    #conteudo{
+        width: 90%
+    }
+    .contato textarea {
+        width: 95%;
+    }
+    .transformed {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    color: rgba(255, 255, 255, .7);
+    border: 3px solid rgba(255, 255, 255, .7);
+    display: inline-block;
+    height: 95px;top: 98px;
+    left: -90px;
+    padding: 15px 15px 15px 30px;
+    position: absolute;
+    width: 292px;
+    z-index: 4;
+    }
+    .contactform{
+    padding:0px;margin-left:120px
+
+    }
+    body{
+        min-height: 100vh;
+
+    }
+        .form-contato1{
+            height:570px;
+    }
+        footer{
+        margin-top: 0px;
+    }
+    #apelacao {
+    margin-top:70px;
+}
+        
+
+}
+
+.form-group{
+    padding-left:0px;
+    padding-right: 0px;
+}
+.contato textarea{
+    height: 170px;
+    margin-bottom: 20px;
+    
+}
+    .transformed {
+    margin-left: auto; margin-right: auto;
+    color: rgba(255, 255, 255, .7);
+    border: 3px solid rgba(255, 255, 255, .7);
+    width: 292px;
+    z-index: 4;
+    }
+
+.contactform{
+   padding-left:auto;padding-right: auto;
+
+    }
+.icones{
+    color: white
+    
+}
+.icones h1{
+    font-family: 'Alfa Slab One', cursive;
+}
+.icones img{
+    margin: 10px;
+}
+body{
+    background: #616161;
+}
